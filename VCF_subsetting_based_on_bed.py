@@ -34,7 +34,7 @@ def subset_vcf(invcf,inbed):
             if tuple(vline[0:2]) in bed_tuples:
                 filtered_entries.append(vline)
     """
-    Writing subset vcf into new file names 'vcf_subset.vcf'
+    Writing subset vcf into new file named 'vcf_subset.vcf'
     """
     outvcf.write("\n".join(header))
     outvcf.write("\n")
