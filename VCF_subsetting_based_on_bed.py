@@ -1,6 +1,7 @@
 import csv
 import sys
 import os
+print("python3 VCF-subsetting-based-on-bed-file <input vcf> <input bed> ")
 def subset_vcf(invcf,inbed):
     """
 
@@ -45,5 +46,5 @@ def subset_vcf(invcf,inbed):
 Calling a function
 """
 subset_vcf(sys.argv[1],sys.argv[2])
-
+print("Check 'vcf_subset.vcf' in your directory!!")
 
