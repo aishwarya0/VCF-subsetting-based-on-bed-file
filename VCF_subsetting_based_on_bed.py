@@ -6,7 +6,7 @@ def subset_vcf(invcf,inbed):
 
     :param invcf: Give VCF file path
     :param inbed: Give BED file path(column 1 : chr<No.>,column2 : start position,column3 : end position)
-    :return: Subset of VCF file based on genomic coordinates present in provided BED file
+    :return: Subset of VCF file based on genomic coordinates present in the provided BED file
     """
     bed_tuples = []
     header=[]
